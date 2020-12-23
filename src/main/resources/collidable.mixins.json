@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.andante.collidable.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

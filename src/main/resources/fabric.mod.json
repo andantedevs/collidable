@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "license": "MIT",
+  "id": "collidable",
+  "version": "${version}",
+
+  "name": "Collidable",
+  "description": "Makes all entities collidable like blocks",
+  "icon": "pack.png",
+
+  "authors": [
+    "Andante"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/andantedevs/collidable",
+    "issues": "https://github.com/andantedevs/collidable/issues"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.andante.collidable.Collidable"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "collidable.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.3",
+    "minecraft": ">=1.16"
+  }
+}
