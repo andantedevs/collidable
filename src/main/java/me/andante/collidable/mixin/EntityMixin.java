@@ -7,8 +7,8 @@ import org.spongepowered.asm.mixin.Overwrite;
 @Mixin(Entity.class)
 public class EntityMixin {
     /**
-     * a very cringe, very destructive mixin, for the lols
      * @author andantedevs
+     * @reason for the lols
      */
     @Overwrite
     public boolean isCollidable() {
